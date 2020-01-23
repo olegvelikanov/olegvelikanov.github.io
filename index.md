@@ -1,6 +1,7 @@
 # Oleg Velikanov
 
 Java Software Engineer at Deutsche Bank Technology Centre
+
 MIPT student, 21y.o.
 
 [My CV](https://olegvelikanov.github.io/professional_CV_english.pdf)
