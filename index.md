@@ -1,6 +1,6 @@
 # Oleg Velikanov
 
-Java Software Engineer at Deutsche Bank Technology Centre
+Junior Java Software developer at Deutsche Bank Technology Centre
 
 MIPT student, 21y.o.
 
