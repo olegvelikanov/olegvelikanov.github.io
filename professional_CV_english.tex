@@ -1,0 +1,139 @@
+\documentclass[a4paper,10pt]{article}
+
+
+\usepackage{marvosym}
+\usepackage{fontspec}                       %for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip}   %other packages for formatting
+\usepackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo}                  %better formatting of the A4 page
+\usepackage{supertabular}                   %for Grades
+\usepackage{titlesec}                       %custom \section
+
+
+%Hyperref for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%Fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+	SmallCapsFont = Fontin-SmallCaps.otf,
+	BoldFont = Fontin-Bold.otf,
+	ItalicFont = Fontin-Italic.otf
+]{Fontin.otf}
+
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} 						    % non-numbered pages
+
+\font\fb=''[cmr10]''                        %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{
+    \centering{
+        \Huge Oleg 
+        \textsc Velikanov
+	}
+	\par
+}
+	 %\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+
+
+\begin{center}
+
+    \\\
+
+    e-mail: \href{mailto:oleg.velikanov@gmail.com}{oleg.velikanov@gmail.com} \\
+    Github: \href{https://github.com/olegvelikanov}{olegvelikanov} \\
+    tel.: +7-920-012-5285\\
+    21 years old\\
+     
+     \\\
+     
+     \\\
+    \hfill 
+    \smash{\includegraphics[width=3.5cm]{photo.png}}
+\end{center}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rl}
+    \textsc{September}  2019 -- 
+    & Master degree in \textsc{Applied Mathematics} and \textsc{Physics},\\
+    \textsc{June}  2021 (expected)
+    &\normalsize\textbf{Moscow Institue of Physics and Technology},\\
+    &Department of Control and Applied Mathematics.\\
+    
+    \\
+    
+    \textsc{September}  2015 -- 
+    & Bachelor degree in \textsc{Applied Mathematics} and \textsc{Physics},\\
+    \textsc{June}  2019
+    &\normalsize\textbf{Moscow Institue of Physics and Technology},\\
+    &Department of Control and Applied Mathematics.\\
+    &Main subjects: Numerical Analysis, Probability Theory,\\ 
+    &Random Processes, Mathematical Statistics, Convex Optimization \\ \bigskip
+    %%%& Thesis: ``Portfolio Strategies with Target Prices'' | \small Advisor: Stefano \textsc{Bonini}\\ 
+    &\normalsize \textsc{Gpa}: 7.5 (10 - max)\\  
+\end{tabular}
+
+%%%\section{Computer Skills}
+\section{Skills}
+\begin{tabular}{rl}
+    \textsc{Languages}: & Russian -- Native, English -- Upper Intermediate\\
+    \textsc{Programming languages}: & Java, C, experienced with SQL \\
+    \textsc{Software}: & Git, TeamCity, \LaTeX \\
+    %Scientific
+    %Intermediate Knowledge:& Pages, Keynote\\
+\end{tabular}
+
+%Section: Additional education (Massive open online courses)
+\section{Additional education}
+    
+    \textbf{Samsung IT-school}     
+    \begin{itemize}
+        \item "\textit{Basics of IT and programming}" 
+        \href{https://olegvelikanov.github.io/src/samsung_it_school_certificate.png}{ \footnotesize (Certificate)}
+    \end{itemize} 
+    
+    \textbf{Tinkoff Fintech School}     
+    \begin{itemize}
+        \item "\textit{Risk management course}" 
+        \href{https://olegvelikanov.github.io/src/Tinkoff_fintech_school_certificate.jpeg}{ \footnotesize (Certificate)}
+    \end{itemize} 
+
+\section{Work Experience}
+\begin{tabular}{r|p{11cm}}
+
+ \emph{Jul 2019} & Junior Java Software developer\\\textsc{current}&at \emph{Deutsche Bank Technology Centre}\\&\footnotesize{Working on the development of the stateless fault-tolerant and resilient microservice using Java 8 and Spring boot framework. The microservice is responsible for communicating with an external financial system and for synchronizing business related data between that system and internal applications.
+ }\\\multicolumn{2}{c}{} \\
+ 
+ \emph{Feb 2019} & Risk Analyst Intern\\\textsc{Apr 2019}&at \emph{Tinkoff bank}\\&\footnotesize{Was working on the development of the model for predicting the annual monetary turnover of a legal entity based on publicly available information.
+ }\\\multicolumn{2}{c}{} \\
+
+ \emph{Sep 2018} & Junior lab assistant \\\textsc{Jun 2019}&at \emph{Institute for System Programming} of the RAS\\&\footnotesize{Was working on testing of Apache Ignite In-Memory Data Grid. Was researching its properties of consistency, availability and partition tolerance with the help of the Clojure framework for distributed system testing called Jepsen.
+ }\\\multicolumn{2}{c}{} \\
+ 
+\end{tabular}
+
+\end{document}
+
