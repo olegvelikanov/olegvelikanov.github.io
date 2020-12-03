@@ -2,7 +2,7 @@
 
 Junior Java Software developer at Deutsche Bank Technology Centre
 
-MIPT student, 21y.o.
+MIPT student, 22y.o.
 
 [My CV](https://olegvelikanov.github.io/professional_CV_english.pdf)
 
