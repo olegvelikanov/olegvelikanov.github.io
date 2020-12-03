@@ -1,5 +1,7 @@
 \documentclass[a4paper,10pt]{article}
 
+\usepackage[left=2cm,right=2cm,
+    top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
 
 \usepackage{marvosym}
 \usepackage{fontspec}                       %for loading fonts
@@ -19,9 +21,9 @@
 %Fonts
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[
-	SmallCapsFont = Fontin-SmallCaps.otf,
-	BoldFont = Fontin-Bold.otf,
-	ItalicFont = Fontin-Italic.otf
+    SmallCapsFont = Fontin-SmallCaps.otf,
+    BoldFont = Fontin-Bold.otf,
+    ItalicFont = Fontin-Italic.otf
 ]{Fontin.otf}
 
 
@@ -41,7 +43,7 @@
 %--------------------BEGIN DOCUMENT----------------------
 \begin{document}
 
-\pagestyle{empty} 						    % non-numbered pages
+\pagestyle{empty}                           % non-numbered pages
 
 \font\fb=''[cmr10]''                        %for use with \LaTeX command
 
@@ -50,10 +52,10 @@
     \centering{
         \Huge Oleg 
         \textsc Velikanov
-	}
-	\par
+    }
+    \par
 }
-	 %\bigskip\par}
+     %\bigskip\par}
 
 %--------------------SECTIONS-----------------------------------
 
@@ -65,7 +67,7 @@
     e-mail: \href{mailto:oleg.velikanov@gmail.com}{oleg.velikanov@gmail.com} \\
     Github: \href{https://github.com/olegvelikanov}{olegvelikanov} \\
     tel.: +7-920-012-5285\\
-    21 years old\\
+    22 years old\\
      
      \\\
      
@@ -109,12 +111,6 @@
 %Section: Additional education (Massive open online courses)
 \section{Additional education}
     
-    \textbf{Samsung IT-school}     
-    \begin{itemize}
-        \item "\textit{Basics of IT and programming}" 
-        \href{https://olegvelikanov.github.io/src/samsung_it_school_certificate.png}{ \footnotesize (Certificate)}
-    \end{itemize} 
-    
     \textbf{Tinkoff Fintech School}     
     \begin{itemize}
         \item "\textit{Risk management course}" 
@@ -124,16 +120,20 @@
 \section{Work Experience}
 \begin{tabular}{r|p{11cm}}
 
- \emph{Jul 2019} & Junior Java Software developer\\\textsc{current}&at \emph{Deutsche Bank Technology Centre}\\&\footnotesize{Working on the development of the stateless fault-tolerant and resilient microservice using Java 8 and Spring boot framework. The microservice is responsible for communicating with an external financial system and for synchronizing business related data between that system and internal applications.
+ \emph{Jul 2019} & Junior Java Software developer\\\textsc{current}&at \emph{Deutsche Bank Technology Centre}\\&\footnotesize{Working on the development of the stateless fault-tolerant microservice using Java 8 and Spring boot framework. The service is responsible for communicating with an external financial system and for synchronizing business related data between that system and internal applications.
+ 
+ Also taking part in the supporting of legacy system as last line support person. Helping to fix production issues and investigating issues root cause.
  }\\\multicolumn{2}{c}{} \\
  
- \emph{Feb 2019} & Risk Analyst Intern\\\textsc{Apr 2019}&at \emph{Tinkoff bank}\\&\footnotesize{Was working on the development of the model for predicting the annual monetary turnover of a legal entity based on publicly available information.
+ \emph{Sep 2020} & Teaching assistant\\\textsc{current}&\emph{at Moscow Institue of Physics and Technology}\\&\footnotesize{Assisting students with their lab work on the course "Algorithms and data structures in Python"
+ }\\\multicolumn{2}{c}{} \\
+ 
+ \emph{Feb 2019} & Risk Analyst Intern\\\textsc{Apr 2019}&at \emph{Tinkoff bank}\\&\footnotesize{Worked on the development of the regression model for predicting the annual monetary turnover of a legal entity based on publicly available information. This model was intended to help businesses make decisions about opening a credit line for a legal entity.
  }\\\multicolumn{2}{c}{} \\
 
- \emph{Sep 2018} & Junior lab assistant \\\textsc{Jun 2019}&at \emph{Institute for System Programming} of the RAS\\&\footnotesize{Was working on testing of Apache Ignite In-Memory Data Grid. Was researching its properties of consistency, availability and partition tolerance with the help of the Clojure framework for distributed system testing called Jepsen.
+ \emph{Sep 2018} & Junior lab assistant \\\textsc{Jun 2019}&at \emph{Institute for System Programming} of the RAS\\&\footnotesize{Worked on load testing of Apache Ignite In-Memory Data Grid. Researched its properties of consistency, availability and partition tolerance with the help of the Clojure framework for distributed system testing called Jepsen.
  }\\\multicolumn{2}{c}{} \\
  
 \end{tabular}
 
 \end{document}
-
