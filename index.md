@@ -1,8 +1,8 @@
 # Oleg Velikanov
 
-Junior Java Software developer at Deutsche Bank Technology Centre
+Middle Golang developer at OZON.ru
 
-MIPT student, 22y.o.
+MIPT student, 23y.o.
 
 [My CV](https://olegvelikanov.github.io/professional_CV_english.pdf)
 
