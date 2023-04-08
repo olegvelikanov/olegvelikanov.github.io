@@ -1,16 +1,18 @@
 # Oleg Velikanov
 
-Middle Golang developer at OZON.ru
+Software engineer at Revolut, 24y.o.
 
-MIPT student, 23y.o.
+Porto, Portugal
 
-[My resume](https://olegvelikanov.github.io/resume.pdf)
+[Resume](https://olegvelikanov.github.io/resume.pdf)
 
 
 ### Contacts
 
 E-mail: [oleg.velikanov@gmail.com](mailto:oleg.velikanov@gmail.com)
 
+Linkedin: [oleg-velikanov](https://www.linkedin.com/in/oleg-velikanov/)
+
 GitHub: [olegvelikanov](https://github.com/olegvelikanov)
 
-Telegram: _@olegvelikanov_
+Telegram: [@olegvelikanov](https://t.me/olegvelikanov)
